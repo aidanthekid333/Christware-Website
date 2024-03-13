@@ -1,0 +1,45 @@
+.aboutTopicsWrapper{
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+
+    
+}
+
+.aboutTopic{
+    display: flex;
+    flex-direction: column;
+
+    opacity: 1;
+
+    margin: 5%;
+
+    border-radius: 1cap;
+
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+}
+
+.aboutTopic:nth-child(1){
+    background-color: #dde6ed;
+}
+
+.aboutTopic:nth-child(2){
+    background-color: #adc4ce;
+}
+
+.aboutTopic:nth-child(3){
+    background-color: #9db2bf;
+}
+
+.aboutTopic p{
+    margin-left: 3%;
+    margin-right: 3%;
+
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.topicTitle{
+    margin-left: 3%;
+}

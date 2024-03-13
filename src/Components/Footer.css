@@ -1,0 +1,7 @@
+.FooterArea{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Example background color */
+    color: white; /* Example text color */
+}

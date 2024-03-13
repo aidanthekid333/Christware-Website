@@ -1,0 +1,49 @@
+.servicesWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    width: 60lvw;
+    height: auto;
+
+    overflow: hidden;
+
+    border-radius: 1cap;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    background: rgb(221,230,237);
+    background: radial-gradient(circle, rgba(221,230,237,1) 10%, rgba(157,178,191,1) 75%);
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+
+    width: clamp(300px, 15vw, 400px);
+    height: clamp(300px, 15vw, 400px);
+
+    margin: 10px;
+
+    border: thin solid black;
+
+    transition-duration: .5s;
+}
+
+.service:hover{
+    transform: scale(1.05);
+    background-color: rgba(50,50, 50, 0.3);
+    cursor: pointer;
+}
+
+.service h3{
+    display: flex;
+    align-self: center;
+}
+
+.service p{
+    margin: 10px;
+}

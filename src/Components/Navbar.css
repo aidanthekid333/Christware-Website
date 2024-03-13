@@ -1,0 +1,65 @@
+.navbarWrapper{
+    position: sticky;
+    top: 0px;
+
+    height: 10lvh;
+
+    border-radius: 20px;
+
+    margin: 20px;
+
+    overflow: hidden;
+
+    z-index: 1;
+
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1);}
+
+.navbarWrapper ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+    height: 100%;
+
+    
+}
+
+.navbarWrapper li{
+    display: flex;
+    flex-grow: 1;
+
+    background-color: #DDE6ED;
+
+    transition-duration: .4s;
+}
+
+.navbarWrapper li:hover{
+    
+    background-color: #9DB2BF;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+.navbarWrapper li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Ojuju';
+    font-size: 150%;
+    text-decoration: none;
+    color: #526D82;
+
+    transition-duration: .4s;
+}
+
+.navbarWrapper li a:hover{
+    color: #27374D;
+}

@@ -1,0 +1,35 @@
+.serviceBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width: 60lvw;
+    height: 60lvh;
+}
+
+.serviceDescriptionWrapper{
+    display: flex;
+    flex-direction: column;
+    
+    width: 40%;
+}
+
+.serviceDescriptionTitle{
+    display: flex;
+
+    margin: 0;
+}
+
+.pointsWrapper{
+    display: flex;
+    flex-direction: column;
+
+    width: 50%
+}
+
+.pointsWrapper h3{
+    display: flex;
+    align-self: center;
+
+    margin: 0;
+}
