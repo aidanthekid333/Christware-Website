@@ -1,10 +1,11 @@
+
 .servicesWrapper{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     
-    width: 60lvw;
+    width: 70vw;
     height: auto;
 
     overflow: hidden;

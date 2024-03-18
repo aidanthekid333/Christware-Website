@@ -12,7 +12,7 @@ import {Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <>
+    <div className='appWrapper'>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -22,7 +22,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 
